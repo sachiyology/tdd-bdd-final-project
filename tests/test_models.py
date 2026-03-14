@@ -181,3 +181,4 @@ class TestProductModel(unittest.TestCase):
         results = Product.find_by_availability(True)
 
         self.assertEqual(len(results), 1)
+
